@@ -1,10 +1,11 @@
 const express = require('express');
+const process = require('process');
 
 const server = express()
 
 console.log("Started Pravega Backend");
 
-const port = 1234
+const port = process.env.PORT || 8080;
 server.listen(port, (args) => {
     if (args) 
         console.log(args);
