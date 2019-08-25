@@ -5,7 +5,7 @@ const fs = require('fs');
 
 const credentialFile = './pravegaherokufirebase-firebase-adminsdk-0a1ch-9727ab5137.json';
 
-const credential = fs.existsSync(credentialFile) ? require(credentialFile) : process.env.FIREBASE_SERVICE_ACCOUNT;
+const credential = fs.existsSync(credentialFile) ? require(credentialFile) : JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
 // console.log(credential);
 
 admin.initializeApp({
