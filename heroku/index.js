@@ -1,6 +1,6 @@
 const firebase = require('./firebase/firebase');
 const db = firebase.database();
-
+    
 const express = require('express');
 const process = require('process');
 
