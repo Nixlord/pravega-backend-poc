@@ -1,0 +1,19 @@
+{
+  "name": "pravega-backend",
+  "version": "0.1.0",
+  "description": "Backend for Pravega Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nixlord/pravega-backend.git"
+  },
+  "author": "NixLord",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nixlord/pravega-backend/issues"
+  },
+  "homepage": "https://github.com/Nixlord/pravega-backend#readme"
+}
