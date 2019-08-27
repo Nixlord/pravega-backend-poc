@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Nixlord/pravega-backend#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "firebase-admin": "^8.4.0"
+    "firebase-admin": "^8.4.0",
+    "pg": "^7.12.1"
   }
 }
