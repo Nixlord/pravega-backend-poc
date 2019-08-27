@@ -1,6 +1,5 @@
 const postgres = require('./postgres');
 
-
 postgres.connect();
 
 postgres.query('SELECT * FROM friends', (err, res) => {  

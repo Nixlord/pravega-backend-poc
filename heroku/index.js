@@ -1,7 +1,7 @@
 const firebase = require('./firebase/firebase');
 const db = firebase.database();
     
-const postgres = require('./postgres');
+const postgres = require('./postgres/postgres');
 postgres.connect();
 
 const express = require('express');
