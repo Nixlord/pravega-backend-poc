@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node heroku/index.js"
+    "start": "node heroku/index.js",
+    "deploy": "git push origin master && git push heroku master && firebase deploy --only functions"
   },
   "repository": {
     "type": "git",
